@@ -1,6 +1,6 @@
-# Examen 03 - Análisis Letter Recognition Dataset
+# Examen 03 - Análisis de Datasets con Aprendizaje Supervisado y No Supervisado
 
-Aplicación de técnicas de aprendizaje supervisado (árboles de decisión) y no supervisado (clustering jerárquico y K-Means) sobre el dataset Letter Recognition de UCI.
+Aplicación de técnicas de aprendizaje supervisado (árboles de decisión) sobre el dataset Letter Recognition y no supervisado (clustering jerárquico y K-Means) sobre el dataset Seeds de UCI.
 
 ## Tabla de Contenidos
 
@@ -13,15 +13,23 @@ Aplicación de técnicas de aprendizaje supervisado (árboles de decisión) y no
 - [Resultados Esperados](#-resultados-esperados)
 - [Referencias](#-referencias)
 
-## Dataset
+## Datasets
 
-**Letter Recognition Dataset**
+### Letter Recognition Dataset
 
 - **Fuente**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/59/letter+recognition)
 - **Instancias**: 20,000 ejemplos
 - **Características**: 16 atributos numéricos (estadísticas de primitivas de imagen)
 - **Clases**: 26 letras mayúsculas del alfabeto inglés (A-Z)
 - **Tipo de datos**: Atributos enteros derivados de imágenes de letras
+
+### Seeds Dataset
+
+- **Fuente**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/236/seeds)
+- **Instancias**: 210
+- **Características**: 7 atributos numéricos (medidas geométricas de granos de trigo)
+- **Clases**: 3 (Kama, Rosa, Canadian)
+- **Tipo de datos**: Atributos reales
 
 ### Características del Dataset
 
@@ -96,7 +104,7 @@ exam_03/
 
 ### 02_point.ipynb - Clustering Jerárquico
 
-**Objetivo**: Explorar relaciones naturales entre las letras usando agrupamiento jerárquico sin etiquetas predefinidas.
+**Objetivo**: Explorar relaciones naturales entre diferentes variedades de semillas de trigo usando agrupamiento jerárquico.
 
 **Técnicas aplicadas**:
 
@@ -160,10 +168,10 @@ Se recomienda ejecutar los notebooks en el siguiente orden:
 
 ### Punto 02 - Clustering Jerárquico
 
-- ✅ Dendrogramas para cada criterio de enlace
+- ✅ Dendrogramas para cada criterio de enlace en el dataset Seeds
 - ✅ Comparación visual entre single, complete, average y ward
-- ✅ Identificación de estructuras jerárquicas
-- ✅ Propuesta preliminar del número de clusters (k)
+- ✅ Identificación de estructuras jerárquicas en los datos de las semillas
+- ✅ Propuesta preliminar del número de clusters (k=3)
 
 ### Punto 03 - K-Means
 
