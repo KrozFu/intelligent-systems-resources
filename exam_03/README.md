@@ -105,10 +105,12 @@ exam_03/
 ### 02_point.ipynb - Clustering Jerárquico
 
 **Objetivo**: Explorar relaciones naturales entre diferentes variedades de semillas de trigo usando agrupamiento jerárquico.
+Finalmente se debe de usar el criterio de agrupamiento J4, se debe de analizar los diferentes puntos de corte para el agrupamiento.
 
 **Técnicas aplicadas**:
 
 - Normalización/estandarización de datos
+- Evaluación con criterio J4
 - Métricas de distancia:
   - Euclidiana
   - Manhattan
